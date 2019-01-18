@@ -22,7 +22,7 @@ class Main extends React.Component {
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
+          <h2 className="major">Projects</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
           <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
@@ -52,15 +52,16 @@ class Main extends React.Component {
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
-              <li><input type="submit" value="Send Message" className="special" /></li>
+              <li><input type="submit" value="Send Message"  className="special" /></li>
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </form>
           <ul className="icons">
-            <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            {/* <li><a href="https://twitter.com" className="icon fa-twitter"><span className="label">Twitter</span></a></li> */}
+            <li><a href="https://www.linkedin.com/feed/" className="icon fa-linkedin"><span className="label">Linkedin</span></a></li>
+            {/* <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li> */}
+            <li><a href="https://github.com/Sgoal2" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            
           </ul>
           {close}
         </article>
