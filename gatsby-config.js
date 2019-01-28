@@ -19,6 +19,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
   ],
 }
