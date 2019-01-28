@@ -25,8 +25,14 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Projects</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <h2>Trivializer Web App</h2>
+          <p>A web app built to simplify the process of creating trivia games
+React | Redux | Axios | Node | Express | Postgres | Stripe |React Router | Firebase | Knex
+</p>
+          <p>● Worked with a variety of di!erent languages, platforms, frameworks, and content management systems such as JavaScript, React/Redux, Netlify, Heroku, and Node<br></br>
+● Worked in a team of 4 to build, design, and test performant reusable modern code<br></br>
+● Used Scrum Agile Methodology over 5 weeks to accomplish team tasks and divide efforts into organized timelines<br></br>
+● Hosted front end and backend using Netlify and Heroku respectively</p>
           {close}
         </article>
 
